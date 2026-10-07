@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DTSAMO PAULIN FRANCKY — Ingénieur des Travaux | Full-Stack Developer</title>
+<meta name="description" content="Portfolio de DTSAMO PAULIN FRANCKY, Ingénieur des Travaux diplômé de l'IUT Fotso Victor de Bandjoun. Développement full-stack : Python, Java, Spring Boot, JavaScript, React, SQL et données.">
+<meta name="theme-color" content="#0f1211">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DTSAMO PAULIN FRANCKY — Ingénieur des Travaux | Full-Stack Developer">
+<meta property="og:description" content="Solutions numériques modernes, du frontend au backend, en passant par les bases de données et la donnée.">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f1211'/%3E%3Cpath d='M9 8h6a8 8 0 010 16H9z' fill='none' stroke='%23ffb02e' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,100..900&family=Instrument+Sans:wght@400..600&family=Martian+Mono:wght@300..500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"DTSAMO PAULIN FRANCKY","jobTitle":"Ingénieur des Travaux, Full-Stack Developer","alumniOf":"IUT Fotso Victor de Bandjoun","knowsAbout":["Python","Java","Spring Boot","JavaScript","React.js","Next.js","SQL","APIs REST","Analyse de données"]}</script>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="cur-dot" aria-hidden="true"></div><div class="cur-ring" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#accueil" data-bind="short_name">DTSAMO</a>
+  <nav aria-label="Navigation principale">
+    <ul id="links">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#parcours">Parcours</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <button class="theme" id="theme" type="button" aria-label="Changer de thème"><span></span></button>
+  <button class="burger" id="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false"><i></i><i></i></button>
+  <div class="progress" id="progress"></div>
+</header>
+
+<main>
+<section class="hero" id="accueil">
+  <div class="hero-bg" aria-hidden="true"><div class="shape ring"></div><div class="shape cross"></div><div class="shape bar"></div></div>
+  <div class="hero-copy">
+    <h1 id="name" aria-label="DTSAMO PAULIN FRANCKY">
+      <span class="ln"><span>DTSAMO</span></span><span class="ln"><span>PAULIN</span></span><span class="ln out"><span>FRANCKY</span></span>
+    </h1>
+    <p class="role" data-bind="role_line">Ingénieur des Travaux · Full-Stack Developer</p>
+    <p class="tag" data-bind="tagline">Je conçois et développe des solutions numériques modernes, performantes et orientées vers des besoins réels.</p>
+    <div class="cta">
+      <a class="btn primary" href="#projets" data-magnetic>Voir mes projets</a>
+      <a class="btn ghost" href="#contact" data-magnetic>Me contacter</a>
+    </div>
+  </div>
+  <aside class="term" aria-label="Aperçu de l'architecture">
+    <div class="term-bar"><i></i><i></i><i></i><span>architecture.sh</span></div>
+    <pre id="term" aria-live="off"></pre>
+  </aside>
+</section>
+
+<section class="sec" id="apropos">
+  <div class="wrap two">
+    <h2 class="ttl"><span class="ln"><span>À propos</span></span></h2>
+    <div class="about">
+      <div id="bio" class="bio"></div>
+      <dl class="counts" id="counts"></dl>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="competences">
+  <div class="wrap">
+    <h2 class="ttl"><span class="ln"><span>Mon Stack</span></span></h2>
+    <div class="stack" id="stack"></div>
+  </div>
+</section>
+
+<section class="sec" id="projets">
+  <div class="wrap">
+    <h2 class="ttl"><span class="ln"><span>Projets sélectionnés</span></span></h2>
+    <p class="note">Ces projets sont des concepts de démonstration : ils illustrent mes compétences, ils ne correspondent à aucun client.</p>
+    <div id="projects"></div>
+  </div>
+</section>
+
+<section class="sec alt" id="construire">
+  <div class="wrap">
+    <h2 class="ttl"><span class="ln"><span>Ce que je construis</span></span></h2>
+    <ul class="pillars" id="pillars"></ul>
+  </div>
+</section>
+
+<section class="sec" id="parcours">
+  <div class="wrap two">
+    <h2 class="ttl"><span class="ln"><span>Parcours</span></span></h2>
+    <ol class="tl" id="timeline"></ol>
+  </div>
+</section>
+
+<section class="sec alt contact" id="contact">
+  <div class="wrap">
+    <h2 class="ttl big"><span class="ln"><span>Construisons</span></span><span class="ln"><span>quelque chose</span></span><span class="ln"><span>ensemble.</span></span></h2>
+    <div class="cgrid">
+      <form id="form" novalidate>
+        <label class="fld"><input name="name" required minlength="2" maxlength="80" autocomplete="name" placeholder=" "><span>Nom</span></label>
+        <label class="fld"><input name="email" type="email" required maxlength="120" autocomplete="email" placeholder=" "><span>Email</span></label>
+        <label class="fld"><input name="subject" required minlength="3" maxlength="140" placeholder=" "><span>Sujet</span></label>
+        <label class="fld"><textarea name="message" required minlength="10" maxlength="3000" rows="5" placeholder=" "></textarea><span>Message</span></label>
+        <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn primary" type="submit" data-magnetic>Envoyer le message</button>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+      </form>
+      <ul class="social" id="social"></ul>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot"><span id="year"></span> <span data-bind="name">DTSAMO PAULIN FRANCKY</span></footer>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
