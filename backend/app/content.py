@@ -14,9 +14,9 @@ PROFILE = {
         "Je travaille sur toute la chaîne d'une application : modéliser les données, exposer une API claire avec Python ou Java et Spring Boot, puis construire l'interface avec JavaScript, Angular ou React. Je pars du besoin réel, je garde le code lisible et je livre quelque chose qui se déploie et se maintient.",
         "Mon goût pour les chiffres me ramène souvent vers la donnée : Excel, SQL et Python pour importer, nettoyer et analyser des jeux de données.",
     ],
-    "email": "votre.email@exemple.com",  # À MODIFIER
+    "email": "paulintsamo57@gmail.com",  # À MODIFIER
     "socials": {  # À MODIFIER : laissez "" pour masquer un lien
-        "github": "https://github.com/",
+        "github": "https://github.com/PAULIN-G",
         "linkedin": "https://www.linkedin.com/",
     },
 }
